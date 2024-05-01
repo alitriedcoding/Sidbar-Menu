@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background: linear-gradient(to right,#abd522,#278c0b); */
+}
+.menu{
+    width: 50%;
+    min-height: 100vh;
+    background-color: #74c656;
+    transform: translate(-100%);
+
+}
+ul a{
+    text-decoration: none;
+    list-style-type: none;
+}
+ul a:hover{
+    text-decoration: underline;
+    background-color: antiquewhite;
+}
+li{
+    
+    padding: 20px;
+}
+#btn{
+    margin-top: 0;
+    color: red;
+    background-color: #74c656;
+    border: none;
+    font-size: 35px;
+    float: right;
+    cursor: pointer;
+
+    
+}
+#icon{
+    float: right;
+    width: 50px;
+    height: auto;
+    cursor: pointer;
+}
+.show-sidbor{
+    transform: translate(0);
+}
